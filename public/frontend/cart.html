@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng của bạn – GreenZone</title>
+    <link rel="stylesheet" href="fonts/quicksand/css/Quicksand_300,400,500,700.css">
+    <link rel="stylesheet" href="fonts/awesome/css/all.min.css">
+    <link rel="stylesheet" href="sass/css/style.css">
+    <link rel="stylesheet" href="slick/slick.min.css">
+    <link rel="stylesheet" href="slick/slick-theme.min.css">
+</head>
+<body>
+    <div class="main-body">
+<!-- header begin -->
+        <div class="main-header-height">
+            <header class="main-header main-header-template-01">
+                <div class="top-bar top-bar-template-header-01">
+                    <div class="container-fluid">
+                        <div class="wraper-top-bar">
+                            <p>Miễn phí vận chuyển với đơn hàng trên 300k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-middle">
+                    <div class="container-fluid">
+                        <div class="flexContainer flexAlignCenter rowFlexMargin">
+                            <div class="header-logo header-mid">
+                                <div class="wrap-logo">
+                                    <h1>
+                                        <a href="index.html">GreenZone</a>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="header-menu menu-desktop">
+                                <div class="nav-main-menu">
+                                    <nav class="main-nav text-center">
+                                        <ul class="level0 clearfix">
+                                            <li class="nav1 has-sub level0">
+                                                <a href="#">Trang chủ <i class="fa fa-chevron-down"></i></a>
+                                                <ul class="sub-menu level1">
+                                                    <li class="nav2"><a href="#">Kiểu hiển thị header 1</a></li>
+                                                    <li class="nav2"><a href="#">Kiểu hiển thị header 2</a></li>
+                                                    <li class="nav2"><a href="#">Kiểu hiển thị header 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav1 has-sub level0">
+                                                <a href="#">Sản phẩm <i class="fa fa-chevron-down"></i></a>
+                                                <ul class="sub-menu level1">
+                                                    <li class="nav2"><a href="product.html">Rau củ Đà Lạt</a></li>
+                                                    <li class="nav2 has-sub level1">
+                                                        <a href="#">Trái cây nhập khẩu
+                                                            <i class="fa fa-chevron-right"></i>
+                                                        </a>
+                                                        <ul class="sub-menu level2">
+                                                            <li><a href="#">Trái cây hộp</a></li>
+                                                            <li><a href="#">Trái cây tươi sạch</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav2"><a href="#">Khuyến mãi hôm nay</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav1 has-sub level0">
+                                                <a href="#">Product view <i class="fa fa-chevron-down"></i></a>
+                                                <ul class="sub-menu level1">
+                                                    <li class="nav2"><a href="#">Product-style-1</a></li>
+                                                    <li class="nav2"><a href="#">Product-style-2</a></li>
+                                                    <li class="nav2"><a href="#">Product-style-3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav1"><a href="#">Blog</a></li>
+                                            <li class="nav1"><a href="#">Giới thiệu</a></li>
+                                            <li class="nav1"><a href="#">Liên hệ</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="header-wrap-icon">
+                                <div class="search header--icon">
+                                    <a href="#" class="link-box">
+                                        <span class="icon-box"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                                    </a>
+                                </div>
+                                <div class="account header--icon">
+                                    <a href="#" class="link-box">
+                                        <span class="icon-box"><i class="fa-regular fa-user fa-xl"></i></span>
+                                    </a>
+                                </div>
+                                <div class="cart header--icon">
+                                    <a href="#" class="link-box">
+                                        <span class="icon-box"><i class="fa-solid fa-cart-plus fa-xl"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+<!-- header end -->
+
+
+
+<!-- main begin -->
+        <main class="mainContainer-theme">
+                        <!-- breadcrumb shop -->
+            <div class="breadcrumb-shop clearfix">
+                <div class="container-fluid">
+                    <div>
+                        <ol class="breadcrumb breadcrumb-arrows">
+                            <li><a href="index.html"><span>Trang chủ</span></a></li>
+                            <li><span> Giỏ hàng (xx)</span></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+                        <!-- cart -->
+            <div id="layout-cart">
+                <div class="container-fluid">
+                    <div class="row pd-page">
+                        <div class="col-md-12 col-xs-12 heading-page">
+                            <div class="header-page">
+                                <h1>Giỏ hàng của bạn</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-xs-12 wrapbox-content-cart">
+                            <div class="cart-container">
+                                <div class="cart-col-left">
+                                    <div class="main-content-cart">
+                                        <form action="/cart" method="post" id="cartformpage">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="title-number-cart">
+                                                        <p class="count-cart">Bạn đang có <span>xx sản phẩm</span> trong giỏ hàng</p>
+                                                    </div>
+                                                    <table class="table-cart">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="image">&nbsp;</th>
+                                                                <th class="item">Tên sản phẩm</th>
+                                                                <th class="remove">&nbsp;</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="line-item-container">
+                                                                <td class="image">
+                                                                    <div class="product_image">
+                                                                        <a href="#"><img src="./images/product-17-3ba9db5f06dc4fc3a577f66db9eaa799.jpg" alt=""></a>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="item">
+                                                                    <a href="#"><h3>Cà Chua Cherry Đà Lạt Tươi Ngon 500Gr - FoodMap</h3></a>
+                                                                    <p><span>50,000đ </span><del>(100,000đ)</del></p>
+                                                                    <p class="variant"><span class="variant_title">1Kg</span></p>
+                                                                    <div class="qty quantity-partent qty-click clearfix">
+                                                                        <button type="button" class="qtyminus qty-btn">-</button>
+                                                                        <input type="text" size="4" name="updates[]" min="1" id="" data-price="50000" value="5" class="tc line-item-qty item-quantity">
+                                                                        <button type="button" class="qtyplus qty-btn">+</button>
+                                                                    </div>
+                                                                    <p class="price">
+                                                                        <span class="text">Thành tiền:</span>
+                                                                        <span class="line-item-total">250,000đ</span>
+                                                                    </p>
+                                                                </td>
+                                                                <td class="remove">
+                                                                    <a href="#" class="cart" title="Xóa sản phẩm này">
+                                                                        <i class="fa-solid fa-trash" aria-hidden="true"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr class="line-item-container">
+                                                                <td class="image">
+                                                                    <div class="product_image">
+                                                                        <a href="#"><img src="./images/vietquat-1e9126bdc02b456fac8d70b6edc742c4.jpg" alt=""></a>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="item">
+                                                                    <a href="#"><h3>Việt Quất Mỹ 125g</h3></a>
+                                                                    <p><span>100,000đ </span></p>
+                                                                    <p class="variant"><span class="variant_title">1Kg</span></p>
+                                                                    <div class="qty quantity-partent qty-click clearfix">
+                                                                        <button type="button" class="qtyminus qty-btn">-</button>
+                                                                        <input type="text" size="4" name="updates[]" min="1" id="" data-price="100000" value="5" class="tc line-item-qty item-quantity">
+                                                                        <button type="button" class="qtyplus qty-btn">+</button>
+                                                                    </div>
+                                                                    <p class="price">
+                                                                        <span class="text">Thành tiền:</span>
+                                                                        <span class="line-item-total">500,000đ</span>
+                                                                    </p>
+                                                                </td>
+                                                                <td class="remove">
+                                                                    <a href="#" class="cart" title="Xóa sản phẩm này">
+                                                                        <i class="fa-solid fa-trash" aria-hidden="true"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="pd_note not-mr">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="checkout-note clearfix">
+                                                            <label for="note" class="note-label">Ghi chú đơn hàng</label>
+                                                            <textarea name="note" id="note" cols="50" rows="8"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="policy_return">
+                                                            <h2>Chính sách mua hàng</h2>
+                                                            <ul>
+                                                                <li>Sản phẩm được đổi 1 lần duy nhất, không hỗ trợ trả.</li>
+                                                                <li>Sản phẩm còn đủ tem mác, chưa qua sử dụng.</li>
+                                                                <li>Sản phẩm nguyên giá được đổi trong 30 ngày trên toàn hệ thống</li>
+                                                                <li>Sản phẩm sale chỉ hỗ trợ đổi size (nếu cửa hàng còn) trong 7 ngày trên toàn hệ thống.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 sitebarCart-sticky">
+                            <div class="wrapbox-order-cart">
+                                <div class="order_cart_block">
+                                    <div class="order_title">
+                                        <h3>Thông tin đơn hàng</h3>
+                                    </div>
+                                    <div class="order_total_price">
+                                        <p>Tổng tiền: <span>300,000đ</span></p>
+                                    </div>
+                                    <P class="note_promo">
+                                        Phí vận chuyển sẽ được tính ở trang thanh toán.
+                                        <br>
+                                        Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.
+                                    </P>
+                                    <div class="oder_cart_action">
+                                        <div class="cart-buttons">
+                                            <a href="#" class="checkout-btn" name="checkout" value>Thanh toán</a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="countine_order_cart" title="Tiếp tục mua hàng">
+                                        <i class="fa-solid fa-reply"></i>
+                                        Tiếp tục mua hàng
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="wrapbox-policy-cart policy_return pd_note visible-xs">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+<!-- main end -->
+
+
+
+<!-- footer begin -->
+        <section id="send-for-gmail" class="section section-for-email">
+            <div class="container-fluid">
+                <div class="rowFlexMargin flexAlignCenter flexJustiCenter">
+                    <div class="col-md-6">
+                        <h3 class="title">Đăng kí nhận tin</h3>
+                        <p class="content">Đăng ký Email để theo dõi những sản phẩm được giảm giá của chúng tôi</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-newsletter"> 
+                            <form class="contact-form" method="post">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Nhập email của bạn" class="inputNew form-control grey newsletter-input">
+                                    <button type="submit" class="button dark submitNewsletter"><span>Gửi</span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="mainFooter footer mainfooter-toolbar">
+            <div class="main-footer collapse">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-col footer-content1">
+                                <h4 class="footer-title in"> Giới thiệu</h4>
+                                <div class="footer-content">
+                                    <p>trang mua sắm trực tuyến trái cây sạch, giàu dinh dưỡng, không chất bảo quản, 100% được hái từ vườn nhà</p>
+                                    <div class="logo-footer">
+                                        <a class="fade-box" href="#"><img src="images/logo-bct.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="footer-col footer-block">
+                                <h4 class="footer-title in"> Liên kết</h4>
+                                <div class="footer-content toggle-footer">
+                                    <ul>
+                                        <li class="item"><a href="#">Tìm kiếm</a></li>
+                                        <li class="item"><a href="#">Giới thiệu</a></li>
+                                        <li class="item"><a href="#">Chính sách đổi trả</a></li>
+                                        <li class="item"><a href="#">Chính sách bảo mật</a></li>
+                                        <li class="item"><a href="#">Điều khoản dịch vụ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer-col in">
+                                <h4 class="footer-title">Thông tin liên hệ</h4>
+                                <div class="footer-content footer-contact">
+                                    <ul>
+                                        <li class="contact-1"><span>Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.</span></li>
+                                        <li class="contact-2"><span>1900.636.099</span></li>
+                                        <li class="contact-3"><span>1900.636.099</span></li>
+                                        <li class="contact-4"><span>hi@haravan.com</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer-col in">
+                                <h4 class="footer-title">Fanpage</h4>
+                                <div class="footer-content footer-contact footer-fanpage">
+                                    <!-- Facebook widget -->						
+                                    <div class="footer-static-content"> 
+                                        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/haravan.official" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=363772567412181&amp;container_width=335&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fharavan.official&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false">
+                                            <span style="vertical-align: bottom; width: 335px; height: 130px;">
+                                                <iframe name="fa9f69fe27b948" width="1000px" height="300px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v16.0/plugins/page.php?adapt_container_width=true&amp;app_id=363772567412181&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df135c56e38f2094%26domain%3Dgreenzone.myharavan.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fgreenzone.myharavan.com%252Ff44b2e97c1ebe4%26relation%3Dparent.parent&amp;container_width=335&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fharavan.official&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 335px; height: 130px;" class=""></iframe>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="clear:both;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="bottom-footer text-center">
+                <div class="container">
+                    <p>Copyright © 2023<a href="#"> GreenZone</a>.<a href="#"> Powered by Haravan</a></p>
+                </div>
+            </div>
+        </footer>
+<!-- footer end -->
+    </div>
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.checkout-btn').click(function(e){
+                e.preventDefault();
+                $('button[name="checkout"]').trigger('click');
+            })
+        });
+        $('.qty-click .qtyplus').on('click',function(e){
+            e.preventDefault();
+            var input = $(this).parent('.quantity-partent').find('input');
+            var currentVal = parseInt(input.val());
+            if (!isNaN(currentVal)) {
+                input.val(currentVal + 1);
+            } else {
+                input.val(1);
+            }
+            Update_price_change();
+        });
+        $(".qty-click .qtyminus").on('click',function(e) {
+            e.preventDefault();
+            var input = $(this).parent('.quantity-partent').find('input');
+            var currentVal = parseInt(input.val());
+            if (!isNaN(currentVal) && currentVal > 1) {
+                input.val(currentVal - 1);
+            } else {
+                input.val(1);
+            }
+            Update_price_change();
+        });
+        function Update_price_change(){
+            var params = {
+                type: 'POST',
+                url: '/cart/update.js',
+                data: $('#cartformpage').serialize(),
+                async: false,
+                dataType: 'json',
+                success: function(data) { 
+                    $.each(data.items,function(i,v){
+                        $('.table-cart tbody tr:eq('+i+') .line-item-total').html(Haravan.formatMoney(v.line_price, "{{amount}}₫"));
+                    });
+                    $('.order_total_price span').html(Haravan.formatMoney(data.total_price, "{{amount}}₫"));
+                    $('.count-cart').html('Bạn đang có ' + '<span>' + data.item_count + ' sản phẩm </span>' + 'trong giỏ hàng');
+                },
+                error: function(XMLHttpRequest, textStatus) {
+                    Haravan.onError(XMLHttpRequest, textStatus);
+                }
+            };
+            jQuery.ajax(params);
+        }
+    </script>
+</body>
+</html>
